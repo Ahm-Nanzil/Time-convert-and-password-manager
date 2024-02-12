@@ -79,6 +79,6 @@ void hoursToSeconds() {
     int hours;
     cout << "Enter time in hours: ";
     cin >> hours;
-    int seconds = hours * 3600; // 1 hour = 3600 seconds
+    int seconds = hours * 3600; 
     cout << hours << " hours is equal to " << seconds << " seconds." << endl;
 }
